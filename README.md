@@ -1,7 +1,8 @@
-# SSAFY 알고리즘 스터디 #
+# SSAFY 12기 부울경 1반 알고리즘 스터디 #
 
 - 스터디명 : __
 - 백준 vs 프로그래머스 vs 리트코드
+- 모임 장소 : 르하임스터디카페 부산명지점 4인 스터디룸 1시간 7000원
 - 정기 모임 : 매주 _요일 저녁 _~_시 _시간  
 - 마감 기한 : 매주 _요일 저녁 _시
 
@@ -53,7 +54,7 @@ git push origin {생성한 브랜치}
 - 회의 마지막에 merge
 
 
-# 문제 #
+## 문제 ##
 
 ### 플랫폼 ###
 |플랫폼|태그|
@@ -63,8 +64,10 @@ git push origin {생성한 브랜치}
 |리트코드|LTC|
 
 ### 주차별 문제 목록 ###
+|추가예정|..|..|
+|--|--|--|
+|..|..|..|
 
-
-# 참고자료 #
+## 참고자료 #3
 - [SeongukBack님] (https://github.com/SeongukBaek/algoStudy)
 - [CodeSquad-2023-BE-Study님] (https://github.com/CodeSquad-2023-BE-Study)

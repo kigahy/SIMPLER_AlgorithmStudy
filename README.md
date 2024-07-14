@@ -68,6 +68,6 @@ git push origin {생성한 브랜치}
 |--|--|--|
 |..|..|..|
 
-## 참고자료 #3
+## 참고자료 ##
 - [SeongukBack님] (https://github.com/SeongukBaek/algoStudy)
 - [CodeSquad-2023-BE-Study님] (https://github.com/CodeSquad-2023-BE-Study)

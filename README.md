@@ -7,9 +7,9 @@
 - 장소 : 르하임스터디카페 부산명지점 4인 스터디룸 *(정기권 결제 예정)*
 - 멤버
 
-|[김가현](https://github.com/kimgahyeonn)|[최진문](https://github.com/jinmoon23)|[이혜령](https://github.com/hyerongii)|[이원재](https://github.com/dnjswoc)|
-|:-:|:-:|:-:|:-:|
-|팀장|통장 관리|문제 선정| |
+    |[김가현](https://github.com/kimgahyeonn)|[최진문](https://github.com/jinmoon23)|[이혜령](https://github.com/hyerongii)|[이원재](https://github.com/dnjswoc)|
+    |:-:|:-:|:-:|:-:|
+    |팀장|통장 관리|문제 선정| |
 
 ## 문제 ##
 

@@ -28,7 +28,7 @@
 - 6이 더 작으므로 병합 리스트에 추가, 마지막 남은 9도 추가
 
 ## 코드로 알아보기
-```
+```py
 def merge_sort(a_list) :
 # a_list, left_half, right_half 총 3개의 변수 생성
     if len(a_list) > 1 : # 리스트의 길이가 2 이상이어서 쪼갤 것이 있다면

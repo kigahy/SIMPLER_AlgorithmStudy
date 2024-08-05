@@ -3,8 +3,8 @@
 
 ![이미지](./images/_66dbbd72-eb53-4f90-abbc-c1a6932679d9.jfif)
 - 목표 : 스터디원 모두 SWEA 파이썬 B 취득
-- 시간 : 매주 월요일 알고리즘, 금요일 CS *(월요일 or 목요일 추후 알림)*
-- 장소 : 르하임스터디카페 부산명지점 4인 스터디룸 *(정기권 결제 예정)*
+- 시간 : 매주 월요일 알고리즘 코드 리뷰. 알고리즘 시즌 끝나면 CS도 함께
+- 장소 : 르하임스터디카페 부산명지점 or 스타벅스 명지오션시티점
 - 멤버
 
     |[김가현](https://github.com/kimgahyeonn)|[최진문](https://github.com/jinmoon23)|[이혜령](https://github.com/hyerongii)|[이원재](https://github.com/dnjswoc)|[김나영](https://github.com/skdud5126)

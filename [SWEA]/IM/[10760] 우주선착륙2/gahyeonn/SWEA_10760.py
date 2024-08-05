@@ -5,7 +5,7 @@ for test_case in range(1, T+1) :
     lst = [list(map(int, input().split())) for _ in range(h)]
 
     di = [0, 1, 1, 1, 0, -1, -1, -1] # 델타 분석을 활용한 접근
-    dj = [1, 1, 0, -1, -1, -1, 0, 1] # dk는 내 위치를 기준으로 행 열
+    dj = [1, 1, 0, -1, -1, -1, 0, 1] # di dj는 내 위치를 기준으로 행 열
 
     num = 0
     for i in range(h) :

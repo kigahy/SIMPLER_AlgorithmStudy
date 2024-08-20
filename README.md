@@ -68,7 +68,7 @@ git push origin {생성한 브랜치}
 ```
 1. `git add .`
 2. `git commit -m "kimgahyeonn_1week"`
-3. `git push origin kimgahyeonn_1week
+3. `git push origin kimgahyeonn_1week`
 
 ### Pull Request 생성 ###
 ```

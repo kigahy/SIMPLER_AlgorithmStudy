@@ -9,7 +9,7 @@
 
     |[김가현](https://github.com/kimgahyeonn)|[최진문](https://github.com/jinmoon23)|[이혜령](https://github.com/hyerongii)|[이원재](https://github.com/dnjswoc)|[김나영](https://github.com/skdud5126)
     |:-:|:-:|:-:|:-:|:-:|
-    |팀장|통장 관리|문제 선정|신박한 풀이로 팀원들의 뇌를 유연하게 만들어주기|신입
+    |팀장|통장 관리|문제 선정|SWEA 솔빙클럽 관리|신입
 
 ## 문제 ##
 

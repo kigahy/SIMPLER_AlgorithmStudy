@@ -58,8 +58,7 @@ https://github.com/kimgahyeonn/algorithm.git
 ```
 git checkout -b {본인의 깃허브 이름}/{주차명}
 ```
-- `git checkout -b gahyeonn/1week`
-- 참고 : branch는 주차별로 생성
+- branch는 주차별로 형성
 
 ### push ###
 ```
@@ -67,9 +66,12 @@ git add .
 git commit -m "{주차명} : {플랫폼}/[{문제번호}] {문제명}"
 git push origin {생성한 브랜치}
 ```
-1. `git add .`
-2. `git commit -m "kimgahyeonn_1week"`
-3. `git push origin kimgahyeonn_1week`
+
+### 커밋 규칙 순서 예시 ###
+1. `git checkout -b gahyeonn/1week`
+2. `git add .`
+3. `git commit -m "kimgahyeonn_1week"`
+4. `git push origin kimgahyeonn_1week`
 
 ### Pull Request 생성 ###
 ```

@@ -58,7 +58,7 @@ https://github.com/kimgahyeonn/algorithm.git
 git checkout -b {본인의 깃허브 이름}/{주차명}
 ```
 - branch는 주차별로 생성
-- 예시 : `git checkout -b gahyeonn/1week`
+- `git checkout -b gahyeonn/1week`
 
 ### push ###
 ```
@@ -66,16 +66,15 @@ git add .
 git commit -m "{주차명} : {플랫폼}/[{문제번호}] {문제명}"
 git push origin {생성한 브랜치}
 ```
-- 예시 : git commit m "1week : BOJ[1234] 단어 길이 재기
+- `git commit -m "kimgahyeonn_1week"`
 
 ### Pull Request 생성 ###
 ```
 {본인의 깃허브 이름} : [{주차명}]
 ```
-- 예시 : `kimgahyeonn : [1week]`
-- 문제명, 시간복잡도, 시간 및 메모리 캡쳐, 플랫폼 기재
+- 예시 : `kimgahyeonn_1week`
 - 스터디 시작할 때 merge
-
+- 추후 문제명, 시간복잡도, 시간 및 메모리 캡쳐, 플랫폼 기재
 
 ## 참고자료 ##
 1. [SeongukBack님](https://github.com/SeongukBaek/algoStudy)

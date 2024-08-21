@@ -9,7 +9,6 @@ for test_case in range(1, T + 1):
     N = int(input()) # 전구 수
     data = [int(num) for num in input().split()] # 바꾸고자 제시된 LED
 
-    #######################################################################################################
     change = [0]*N # 하나씩 바꿔나갈 LED
     boolean = False # 한줄.
 

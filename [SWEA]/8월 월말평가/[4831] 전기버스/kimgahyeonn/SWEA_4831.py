@@ -53,7 +53,7 @@ for tc in range(1, T + 1):
             continue # 충전 안해도 되고 다음 i로 넘어감.    
     '''
     
-''' 시행착오2
+''' 시행착오2 어줍잖게 while 시도했다가 망함
 for tc in range(1, T+1) :
     K, N, M = map(int, input().split()) # 이동거리, 종점(정류장 수=), 충전기 수
     charge = list(map(int, input().split()))

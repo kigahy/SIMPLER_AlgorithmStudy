@@ -1,5 +1,5 @@
 # SSAFY 12기 알고리즘 스터디 [심플러(Simpler)] #
-**심플러(Simpler)**, 어려운 코드도 간단히 처리하는 사람들 ~~아아아악엄살러들아아아아아~~
+**심플러(Simpler)**, 어려운 코드도 간단히 처리하는 사람들 ~~엄살러~~
 
 ![이미지](./images/_66dbbd72-eb53-4f90-abbc-c1a6932679d9.jfif)
 - 목표 : 스터디원 모두 SWEA 파이썬 B 취득
@@ -10,7 +10,7 @@
 
     |[김가현](https://github.com/kimgahyeonn)|[최진문](https://github.com/jinmoon23)|[이혜령](https://github.com/hyerongii)|[이원재](https://github.com/dnjswoc)|[김나영](https://github.com/skdud5126)
     |:-:|:-:|:-:|:-:|:-:|
-    |팀장|공용 통장 관리|문제 선정 및 게시|SWEA 솔빙클럽 관리|클린코딩 선도
+    |팀장, 보고서 작성|공용 통장 관리|문제 선정 및 게시|SWEA 솔빙클럽 관리|코드리뷰 순서 지정
 
 ### 플랫폼 ###
 |플랫폼(링크)|태그|

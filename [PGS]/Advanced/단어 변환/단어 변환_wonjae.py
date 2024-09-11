@@ -27,33 +27,39 @@ def solution(begin, target, words):
 
         while queue:
             next_word = queue.popleft()
-            for word in word_dict[next_word]:
-                if word in visited: continue
-                visited.add(word)
+            for word in word_dict[next_word]:   # 단어에서 다음 단계로 갈 수 있는 단어들을 반복하며
+                if word in visited: continue    # 방문한 적 있는 단어라면 continue
+                visited.add(word)   # 아니라면 visited에 추가
                 queue.append(word)
-                dist[word] = dist[next_word] + 1
+                dist[word] = dist[next_word] + 1    # 전에 바뀐 단어까지 걸린 단계 수 + 1
 
+    # 단어의 인접 리스트를 만들기 위한 코드
     for word in words:
-        word_dict[word] = []
-        dist[word] = 0
-        for comp in words:
-            if word == comp: continue
-            cnt = 0
-            for i in range(len(begin)):
-                if word[i] != comp[i]:
-                    cnt += 1
-                if cnt > 1: continue
+        word_dict[word] = []    # 단어를 key로 하고 value에 빈 리스트 생성
+        dist[word] = 0  # 단어를 key로 하고 value에 0을 생성
+        for comp in words:  # 단어와 words의 다른 단어들과 비교하여
+            if word == comp: continue   # 같으면 continue
+            cnt = 0  # 차이나는 알파벳 개수
+            for i in range(len(begin)):  # 단어 길이만큼 반복하며
+                if word[i] != comp[i]:  # 두 단어를 비교하여 알파벳이 차이나면
+                    cnt += 1    # cnt + 1
+                if cnt > 1: continue    # cnt가 1을 넘어가면 continue
             else:
-                if cnt == 1:
-                    word_dict[word].append(comp)
-
-    # print(word_dict)
-    # print(dist)
-    word_change(begin)
-    if target not in words:
+                if cnt == 1:    # 최종적으로 차이나는 알파벳 개수가 1개이면
+                    word_dict[word].append(comp)    # 단어를 key로 하는 리스트에 추가
+    # 위 코드의 결과
+    # word_dict = {'hot': ['dot', 'lot', 'hit'], 'dot': ['hot', 'dog', 'lot'],
+    #              'dog': ['dot', 'log', 'cog'], 'lot': ['hot', 'dot', 'log'],
+    #              'log': ['dog', 'lot', 'cog'], 'cog': ['dog', 'log'],
+    #              'hit': ['hot']}
+    # dist = {'hot': 0, 'dot': 0, 'dog': 0, 'lot': 0, 'log': 0, 'cog': 0, 'hit': 0}
+    print(word_dict)
+    print(dist)
+    word_change(begin)  # BFS
+    if target not in words:  # words에 target이 없다면
         answer = 0
-    else:
-        answer = dist[target]
+    else:   # 있다면
+        answer = dist[target]   # target까지 걸린 거리를 출력
 
     return answer
 

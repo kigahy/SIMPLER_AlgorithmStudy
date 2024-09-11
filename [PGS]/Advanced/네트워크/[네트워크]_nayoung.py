@@ -27,19 +27,19 @@ computer[i][i]는 항상 1입니다.
 
 def solution(n, computers):
     answer = 0
-    visited = [0]*n
+    visited = [0]*n  # 각 컴퓨터 사용했는지 확인하기 위한 visited
 
     def dfs(i, visited):
-        visited[i] = 1  # 해당 컴퓨터 표시
+        visited[i] = 1  # 해당 컴퓨터 사용했다 표시
 
-        for col in range(n):
+        for col in range(n):  # 모든 컴퓨터 탐색
             if i != col and computers[i][col] == 1:  # 자기자신 제외 / 연결된 컴퓨터 확인
                 if visited[col] == 0:  # 방문 표시 없으면
                     dfs(col, visited)
 
     for i in range(n):
-        if not visited[i]:   # 방문체크 안했더라면
+        if not visited[i]:   # 사용체크 안했더라면
             dfs(i,visited)  # dfs 함수 사용
-            answer+=1
+            answer+=1  # 네트워크 찾았으면 ans 추가
 
     return answer
